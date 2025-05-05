@@ -4,19 +4,25 @@ page 99499 "Service Log Entries"
 {
     ApplicationArea = All;
     Caption = 'Service Log Entries';
-    PageType = Card;
+    PageType = ListPart;
     SourceTable = "Service Log";
+    UsageCategory = Lists;
 
-    AutoSplitKey = true;
+    //允許CUD
+    InsertAllowed = true;
+    ModifyAllowed = true;
+    DeleteAllowed = true;
 
     layout
     {
         area(Content)
         {
-            group(General)
+            repeater(General)
             {
-                Caption = 'General';
-
+                field(VIN; Rec.VIN)
+                {
+                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
+                }
                 field(Amount; Rec.Amount)
                 {
                     ToolTip = 'Specifies the value of the Amount field.', Comment = '%';
@@ -64,10 +70,6 @@ page 99499 "Service Log Entries"
                 field(SystemModifiedBy; Rec.SystemModifiedBy)
                 {
                     ToolTip = 'Specifies the value of the SystemModifiedBy field.', Comment = '%';
-                }
-                field(VIN; Rec.VIN)
-                {
-                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
                 }
             }
         }

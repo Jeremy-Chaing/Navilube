@@ -52,6 +52,11 @@ table 99499 "Service Log"
         {
             Clustered = true;
         }
+
+        key(VINIndex; "VIN")
+        {
+            SumIndexFields = "Amount";
+        }
     }
     trigger OnInsert()
     begin

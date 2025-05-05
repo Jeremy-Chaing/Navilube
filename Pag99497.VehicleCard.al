@@ -7,6 +7,9 @@ page 99497 "Vehicle Card"
     PageType = Card;
     SourceTable = Vehicle;
 
+
+    InsertAllowed = true;
+
     layout
     {
         area(Content)
@@ -58,6 +61,15 @@ page 99497 "Vehicle Card"
                 field(VIN; Rec.VIN)
                 {
                     ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
+                }
+            }
+
+            group("Service History")
+            {
+                part(ServiceLogEntries; "Service Log Entries")
+                {
+                    SubPageLink = "VIN" = FIELD("VIN");
+                    ApplicationArea = All;
                 }
             }
         }

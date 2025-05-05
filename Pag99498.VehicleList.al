@@ -4,17 +4,34 @@ page 99498 "Vehicle List"
 {
     ApplicationArea = All;
     Caption = 'Vehicle List';
-    PageType = Card;
+    PageType = List;
     SourceTable = Vehicle;
-    
+    UsageCategory = Lists;
+
+    Editable = false; // 禁止直接修改
+    CardPageID = "Vehicle Card"; // 點一下就跳到卡片頁
+
     layout
     {
         area(Content)
         {
-            group(General)
+            repeater(General)
             {
-                Caption = 'General';
-                
+                field(VIN; Rec.VIN)
+                {
+                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
+
+                    ApplicationArea = All;
+                    DrillDown = true;
+
+                    trigger OnDrillDown()
+                    var
+                        VehicleCardPage: Page "Vehicle Card";
+                    begin
+                        VehicleCardPage.SetRecord(Rec);
+                        VehicleCardPage.Run();
+                    end;
+                }
                 field("Customer No."; Rec."Customer No.")
                 {
                     ToolTip = 'Specifies the value of the Customer No. field.', Comment = '%';
@@ -55,10 +72,7 @@ page 99498 "Vehicle List"
                 {
                     ToolTip = 'Specifies the value of the Transmission field.', Comment = '%';
                 }
-                field(VIN; Rec.VIN)
-                {
-                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
-                }
+
             }
         }
     }
