@@ -3,7 +3,7 @@ namespace NaviLube.NaviLube;
 page 99500 "Service Log Entries Subpage"
 {
     ApplicationArea = All;
-    Caption = 'Service Log Entries Subpage';
+    Caption = 'Service Log Entries';
     PageType = ListPart;
     SourceTable = "Service Log";
     AutoSplitKey = true;
