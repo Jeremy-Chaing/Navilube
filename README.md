@@ -1,17 +1,17 @@
 # Navilube
 
 ## table
-- [V] table Vehicle
+- [x] table Vehicle
 
-- [V] table Service Log
+- [x] table Service Log
 
 ## Page
 - [ ] Vehicle Card
 
-- [V] Vehicle List
+- [x] Vehicle List
 
-- [V] Service Log Entries
-    - [V] Create the Secondary Keys
+- [x] Service Log Entries
+    - [x] Create the Secondary Keys
 
     - [ ] Service Log Entries Subpage
 
