@@ -15,6 +15,16 @@ table 99499 "Service Log"
         {
             Caption = 'VIN';
             TableRelation = Vehicle."VIN";
+
+            trigger OnValidate()
+            var
+                VehicleRec: Record Vehicle;
+            begin
+                if VIN <> '' then begin
+                    if VehicleRec.Get(VIN) then
+                        "Customer No." := VehicleRec."Customer No.";
+                end;
+            end;
         }
         field(30; "Date"; Date)
         {
@@ -61,6 +71,9 @@ table 99499 "Service Log"
     }
     trigger OnInsert()
     begin
-        "Date" := Today;
+        if VIN = '' then
+            Error('新增維修紀錄時，車身號碼 (VIN) 不得為空。');
+
+        "Date" := Today; // 原本你已有的自動補日期
     end;
 }

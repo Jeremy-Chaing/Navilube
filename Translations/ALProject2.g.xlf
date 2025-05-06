@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ALProject2">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 1255613137 - Action 3439163307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>查看該客戶車輛</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Action ViewVehiclesForCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Log Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 636392376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Amount field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 3192175264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 3331317930 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Fluids Checked field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Fluids Checked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 736648186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Mileage field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Mileage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 3138243144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Next Service Mileage field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control Next Service Mileage - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2333611933 - Control 3582544635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Service Log Entries - Control VIN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 1041472336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Service Dollars field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control Total Service Dollars - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 1522274239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Service Visits field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control Total Service Visits - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 532835786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transmission field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control Transmission - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 20382016 - Control 3582544635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle Card - Control VIN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 4190130733 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Customer No. field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemCreatedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemId field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedAt field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the SystemModifiedBy field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 1041472336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Service Dollars field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Total Service Dollars - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 1522274239 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Service Visits field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Total Service Visits - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 532835786 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Transmission field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control Transmission - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Control 3582544635 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the VIN field.</source>
+          <note from="Developer" annotates="general" priority="2">%</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Control VIN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 405542470 - Action 1951097593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>檢視維修紀錄</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Action ViewServiceLogs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 3192175264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 3331317930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fluids Checked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Fluids Checked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 736648186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mileage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Mileage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 3138243144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Service Mileage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field Next Service Mileage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2692208995 - Field 3582544635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Service Log - Field VIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vehicle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 1041472336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Service Dollars</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Total Service Dollars - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 1522274239 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Service Visits</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Total Service Visits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 532835786 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transmission</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field Transmission - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1193173812 - Field 3582544635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Vehicle - Field VIN - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

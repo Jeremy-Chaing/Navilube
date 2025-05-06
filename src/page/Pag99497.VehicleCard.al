@@ -1,36 +1,24 @@
 namespace NaviLube.NaviLube;
 
-page 99498 "Vehicle List"
+page 99497 "Vehicle Card"
 {
     ApplicationArea = All;
-    Caption = 'Vehicle List';
-    PageType = List;
+    Caption = 'Vehicle Card';
+    PageType = Card;
     SourceTable = Vehicle;
-    UsageCategory = Lists;
 
-    Editable = false; // 禁止直接修改
-    CardPageID = "Vehicle Card"; // 點一下就跳到卡片頁
+    InsertAllowed = true;
 
     layout
     {
         area(Content)
         {
-            repeater(General)
+            group(General)
             {
+                Caption = 'General';
                 field(VIN; Rec.VIN)
                 {
                     ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
-
-                    ApplicationArea = All;
-                    DrillDown = true;
-
-                    trigger OnDrillDown()
-                    var
-                        VehicleCardPage: Page "Vehicle Card";
-                    begin
-                        VehicleCardPage.SetRecord(Rec);
-                        VehicleCardPage.Run();
-                    end;
                 }
                 field("Customer No."; Rec."Customer No.")
                 {
@@ -72,7 +60,6 @@ page 99498 "Vehicle List"
                 {
                     ToolTip = 'Specifies the value of the Transmission field.', Comment = '%';
                 }
-
             }
         }
     }

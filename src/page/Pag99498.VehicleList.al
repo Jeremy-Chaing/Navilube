@@ -1,22 +1,37 @@
 namespace NaviLube.NaviLube;
 
-page 99497 "Vehicle Card"
+page 99498 "Vehicle List"
 {
     ApplicationArea = All;
-    Caption = 'Vehicle Card';
-    PageType = Card;
+    Caption = 'Vehicle List';
+    PageType = List;
     SourceTable = Vehicle;
+    UsageCategory = Lists;
 
-    InsertAllowed = true;
+    Editable = false; // 禁止直接修改
+    CardPageID = "Vehicle Card"; // 點一下就跳到卡片頁
 
     layout
     {
         area(Content)
         {
-            group(General)
+            repeater(General)
             {
-                Caption = 'General';
+                field(VIN; Rec.VIN)
+                {
+                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
 
+                    ApplicationArea = All;
+                    DrillDown = true;
+
+                    trigger OnDrillDown()
+                    var
+                        VehicleCardPage: Page "Vehicle Card";
+                    begin
+                        VehicleCardPage.SetRecord(Rec);
+                        VehicleCardPage.Run();
+                    end;
+                }
                 field("Customer No."; Rec."Customer No.")
                 {
                     ToolTip = 'Specifies the value of the Customer No. field.', Comment = '%';
@@ -57,28 +72,31 @@ page 99497 "Vehicle Card"
                 {
                     ToolTip = 'Specifies the value of the Transmission field.', Comment = '%';
                 }
-                field(VIN; Rec.VIN)
-                {
-                    ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
-                }
-            }
 
-            group("Service History")
-            {
-                part(ServiceLogEntries; "Service Log Entries Subpage")
-                {
-                    ApplicationArea = All;
-                    SubPageLink = "VIN" = FIELD("VIN");
-                    Editable = true;
-                    Enabled = true;
-                    UpdatePropagation = Both;
-                }
             }
         }
     }
 
-    trigger OnAfterGetRecord()
-    begin
-        CurrPage.Update();
-    end;
+    //按鈕顯示某車所有維修紀錄
+    actions
+    {
+        area(Processing)
+        {
+            action(ViewServiceLogs)
+            {
+                Caption = '檢視維修紀錄';
+                ApplicationArea = All;
+
+                trigger OnAction()
+                var
+                    ServiceLogPage: Page "Service Log Entries";
+                    FilterRec: Record "Service Log";
+                begin
+                    FilterRec.SetRange("VIN", Rec."VIN");
+                    ServiceLogPage.SetTableView(FilterRec);
+                    ServiceLogPage.Run();
+                end;
+            }
+        }
+    }
 }
