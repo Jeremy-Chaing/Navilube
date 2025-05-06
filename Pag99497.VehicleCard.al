@@ -7,7 +7,6 @@ page 99497 "Vehicle Card"
     PageType = Card;
     SourceTable = Vehicle;
 
-
     InsertAllowed = true;
 
     layout
@@ -66,12 +65,20 @@ page 99497 "Vehicle Card"
 
             group("Service History")
             {
-                part(ServiceLogEntries; "Service Log Entries")
+                part(ServiceLogEntries; "Service Log Entries Subpage")
                 {
-                    SubPageLink = "VIN" = FIELD("VIN");
                     ApplicationArea = All;
+                    SubPageLink = "VIN" = FIELD("VIN");
+                    Editable = true;
+                    Enabled = true;
+                    UpdatePropagation = Both;
                 }
             }
         }
     }
+
+    trigger OnAfterGetRecord()
+    begin
+        CurrPage.Update();
+    end;
 }

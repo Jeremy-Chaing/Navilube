@@ -3,7 +3,7 @@ table 99499 "Service Log"
     Caption = 'Service Log';
     DataClassification = ToBeClassified;
 
-    DrillDownPageID = "Service Log Entries";
+    //DrillDownPageID = "Service Log Entries";
 
     fields
     {
@@ -28,6 +28,7 @@ table 99499 "Service Log"
         field(50; Amount; Decimal)
         {
             Caption = 'Amount';
+            DecimalPlaces = 2 : 2;
         }
         field(60; "Fluids Checked"; Boolean)
         {
@@ -48,7 +49,7 @@ table 99499 "Service Log"
     }
     keys
     {
-        key(PK; "Line No.")
+        key(PK; "VIN", "Line No.")
         {
             Clustered = true;
         }
