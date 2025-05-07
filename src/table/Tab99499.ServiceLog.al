@@ -16,6 +16,7 @@ table 99499 "Service Log"
             Caption = 'VIN';
             TableRelation = Vehicle."VIN";
 
+            //選擇VIN後帶出Vehicle table有的資料 ex.Customer No.
             trigger OnValidate()
             var
                 VehicleRec: Record Vehicle;
@@ -69,11 +70,13 @@ table 99499 "Service Log"
             SumIndexFields = "Amount";
         }
     }
+
+    //VIN(Key值)不得為空
     trigger OnInsert()
     begin
         if VIN = '' then
             Error('新增維修紀錄時，車身號碼 (VIN) 不得為空。');
 
-        "Date" := Today; // 原本你已有的自動補日期
+        "Date" := Today;
     end;
 }

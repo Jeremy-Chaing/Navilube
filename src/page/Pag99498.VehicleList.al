@@ -85,17 +85,8 @@ page 99498 "Vehicle List"
             action(ViewServiceLogs)
             {
                 Caption = '檢視維修紀錄';
-                ApplicationArea = All;
-
-                trigger OnAction()
-                var
-                    ServiceLogPage: Page "Service Log Entries";
-                    FilterRec: Record "Service Log";
-                begin
-                    FilterRec.SetRange("VIN", Rec."VIN");
-                    ServiceLogPage.SetTableView(FilterRec);
-                    ServiceLogPage.Run();
-                end;
+                RunObject = Page "Service Log Entries";
+                RunPageLink = "VIN" = field("VIN");
             }
         }
     }

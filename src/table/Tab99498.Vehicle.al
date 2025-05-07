@@ -29,6 +29,8 @@ table 99498 Vehicle
         {
             Caption = 'Total Service Visits';
             FieldClass = FlowField;
+
+            //計算維修次數
             CalcFormula = Count("Service Log" WHERE("VIN" = FIELD("VIN")));
         }
         field(60; "Total Service Dollars"; Decimal)
@@ -48,4 +50,11 @@ table 99498 Vehicle
             Clustered = true;
         }
     }
+
+    //VIN(Key值)不得為空
+    trigger OnInsert()
+    begin
+        if VIN = '' then
+            Error('新增維修紀錄時，車身號碼 (VIN) 不得為空。');
+    end;
 }
