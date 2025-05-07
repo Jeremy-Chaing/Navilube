@@ -208,6 +208,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Vehicle List - Action ViewServiceLogs - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1253166108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NaviLube Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report NaviLube Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2692208995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Log</source>
           <note from="Developer" annotates="general" priority="2"></note>

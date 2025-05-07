@@ -13,6 +13,7 @@ page 99499 "Service Log Entries"
     InsertAllowed = true;
     ModifyAllowed = true;
     DeleteAllowed = true;
+    DelayedInsert = true;
 
     layout
     {
@@ -23,6 +24,7 @@ page 99499 "Service Log Entries"
                 field(VIN; Rec.VIN)
                 {
                     ToolTip = 'Specifies the value of the VIN field.', Comment = '%';
+                    ShowMandatory = true;
                 }
                 field(Amount; Rec.Amount)
                 {

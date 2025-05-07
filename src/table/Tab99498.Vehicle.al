@@ -9,7 +9,7 @@ table 99498 Vehicle
         field(10; VIN; Code[20])
         {
             Caption = 'VIN';
-
+            NotBlank = true;
         }
         field(20; "Customer No."; Code[20])
         {
@@ -32,6 +32,7 @@ table 99498 Vehicle
 
             //計算維修次數
             CalcFormula = Count("Service Log" WHERE("VIN" = FIELD("VIN")));
+            Editable = false;
         }
         field(60; "Total Service Dollars"; Decimal)
         {
@@ -41,6 +42,7 @@ table 99498 Vehicle
             CalcFormula = Sum("Service Log"."Amount" WHERE("VIN" = FIELD("VIN")));
             //小數點只顯示兩位數
             DecimalPlaces = 2 : 2;
+            Editable = false;
         }
     }
     keys

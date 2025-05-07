@@ -2,8 +2,8 @@ table 99499 "Service Log"
 {
     Caption = 'Service Log';
     DataClassification = ToBeClassified;
-
-    //DrillDownPageID = "Service Log Entries";
+    LookupPageId = "Service Log Entries";
+    DrillDownPageID = "Service Log Entries";
 
     fields
     {
@@ -15,6 +15,7 @@ table 99499 "Service Log"
         {
             Caption = 'VIN';
             TableRelation = Vehicle."VIN";
+            NotBlank = true;
 
             //選擇VIN後帶出Vehicle table有的資料 ex.Customer No.
             trigger OnValidate()
