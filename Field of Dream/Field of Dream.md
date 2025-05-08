@@ -3,7 +3,7 @@
 ## confirm
 
 - Worksheet
-- Where is TEAM.TXT
+- ~~Where is TEAM.TXT~~
 - Sponsor Team column in sponsor table
 
 ## table
@@ -86,7 +86,7 @@ FlowFields：
 
 分頁連結：
 
-- [ ] Sponsor Card 上需要分別加入進入 Pledge 與 Contribution 的按鈕
+- [ ] ~~Sponsor Card 上需要分別加入進入 Pledge 與 Contribution 的按鈕~~ pledge 跟 contribution 改為 sponsor 的明細行顯示在 sponsor card 即可
 
 - [ ] Menu Button 需要支援 List (F5) 功能
 
@@ -96,7 +96,7 @@ FlowFields：
 
 資料匯入：
 
-- [ ] 使用 Dataport 匯入 Team 和 Sponsor 資料
+- [ ] ~~使用 Dataport 匯入 Team 和 Sponsor 資料~~ ==> import 改為用 processing only report吃 excel 檔案, 要能匯入 sponsor/team 的基本資料寫成一支或兩支都可以 (processing only report 是 report 物件, property 有一個 processing only 設為 true 即可)
 
 資料來源為 TEAM.TXT（Comma-delimited）
 
@@ -104,11 +104,12 @@ FlowFields：
 
 - [ ] 顯示每個 Sponsor 的總承諾與捐款
 
-- [ ] 需要三個 DataItems 來生成報表
+- [ ] 需要三個 DataItems 來生成報表，報表要有表頭表身, 試試看用 setdata/getdata 輸出表頭的資料
 
 ## Precautions
 
 - [X] Make sure to use object numbers in the range 99120 – 99129 for all of the objects.
+- [ ] Table ~~option~~ ==> Enum
 
 ## Extra features
 

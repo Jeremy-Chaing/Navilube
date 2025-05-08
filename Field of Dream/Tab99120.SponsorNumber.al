@@ -2,7 +2,7 @@ table 99120 "Sponsor Number"
 {
     Caption = 'Sponsor Number';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(10; "Sponsor Number"; Code[20])
@@ -25,7 +25,7 @@ table 99120 "Sponsor Number"
         {
             Caption = 'Join Date';
         }
-        field(60; "Sponsorship Level"; Option)
+        field(60; "Sponsorship Level"; Enum)
         {
             Caption = 'Sponsorship Level';
         }
@@ -33,7 +33,7 @@ table 99120 "Sponsor Number"
         {
             Caption = 'Sponsor Team';
         }
-        field(80; "Marital Status"; Option)
+        field(80; "Marital Status"; Enum)
         {
             Caption = 'Marital Status';
         }
