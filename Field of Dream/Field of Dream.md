@@ -5,6 +5,7 @@
 - Worksheet
 - ~~Where is TEAM.TXT~~
 - Sponsor Team column in sponsor table
+- Sponsor address(at least 2 lines)
 
 ## table
 
@@ -12,7 +13,7 @@
 
         Sponsor Number：贊助者編號（每個贊助者需有唯一編號）
 
-        Sponsor's Name：贊助者名稱（每個單字的首字母需大寫）
+        Sponsor's Name：贊助者名稱（每個單字的首字母需大寫）(用原生 No. Series 自動取號 參考customer/vendor/item)
 
         Sponsor's Address：至少兩行地址
 

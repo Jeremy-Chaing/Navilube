@@ -2,7 +2,7 @@ table 99121 Team
 {
     Caption = 'Team';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
         field(10; "Code"; Code[20])
