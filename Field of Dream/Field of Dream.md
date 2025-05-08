@@ -1,8 +1,10 @@
 # Field of Dream
 
-## notice
+## confirm
 
-- [X] Make sure to use object numbers in the range 99120 – 99129 for all of the objects.
+- Worksheet
+- Where is TEAM.TXT
+- Sponsor Team column in sponsor table
 
 ## table
 
@@ -38,7 +40,7 @@
 
 - 贊助捐款（Contribution）資料表 (99123)
 
-        Line No.：行號（用於識別每筆捐款）
+        Line No.：行號（用於識別每筆捐款）(Use AutoSplitKey)
 
         Sponsor No.：贊助者編號
 
@@ -62,6 +64,57 @@
 
         Activated Status：啟用/停用狀態
 
-## Page
+## Spec
 
-## report
+F6 查詢功能：
+
+- [ ] Sponsor Team 欄位需要支援 F6 查詢到 Team 表
+
+FlowFields：
+
+- [ ] 每個 Sponsor 都應顯示總承諾金額與總捐款金額
+
+表單類型：
+
+- [ ] Sponsor 需要卡片（Card）與清單（List）表單
+
+- [ ] Team 需要工作表（Worksheet）表單
+
+- [ ] Pledge 和 Contribution 需要 Tabular 表單
+
+- [ ] 自動編號：Pledge 和 Contribution 需要 AutoSplitKey 屬性來自動產生行號
+
+分頁連結：
+
+- [ ] Sponsor Card 上需要分別加入進入 Pledge 與 Contribution 的按鈕
+
+- [ ] Menu Button 需要支援 List (F5) 功能
+
+同步更新：
+
+- [ ] 當切換 Sponsor Card 時，已開啟的 Pledge 和 Contribution 頁面應同步更新
+
+資料匯入：
+
+- [ ] 使用 Dataport 匯入 Team 和 Sponsor 資料
+
+資料來源為 TEAM.TXT（Comma-delimited）
+
+報表需求：
+
+- [ ] 顯示每個 Sponsor 的總承諾與捐款
+
+- [ ] 需要三個 DataItems 來生成報表
+
+## Precautions
+
+- [X] Make sure to use object numbers in the range 99120 – 99129 for all of the objects.
+
+## Extra features
+
+- 戰績追蹤
+  - 於Team card 畫面用ListPart做一個Subform顯示球隊近五場比賽結果及目前排名
+  
+- 球季比賽結果table
+  - 有戰績追蹤勢必就需要一個比賽結果總表table 但僅於 Team card 畫面顯示近五場之比賽結果
+  - Column: Game No., Season, Home team, Guest team, Home point, Guest point, Date, Win Team, Lose team

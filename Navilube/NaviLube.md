@@ -13,11 +13,11 @@
 - [x] Vehicle List
 
 - [x] Service Log Entries
-    - [x] Create the Secondary Keys
+  - [x] Create the Secondary Keys
 
 ## Report
 
-- [ ] Vehicle Report 
+- [ ] Vehicle Report
 
 - [ ] Vehicle Service Log
 
@@ -36,8 +36,3 @@
 - [x] Service Log 沒有輸入資料前不要Insert(Key不能空白)
 
 - [x] 翻譯Service Log Table
-
-
-
-
-
