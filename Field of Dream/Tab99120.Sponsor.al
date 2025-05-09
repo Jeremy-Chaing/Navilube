@@ -9,11 +9,11 @@ table 99120 Sponsor
         {
             Caption = 'Sponsor Number';
         }
-        field(20; "Sponsor's Name"; Text)
+        field(20; "Sponsor's Name"; Text[100])
         {
             Caption = 'Sponsor''s Name';
         }
-        field(30; "Sponsor's Address"; Text)
+        field(30; "Sponsor's Address"; Text[250])
         {
             Caption = 'Sponsor''s Address';
         }
@@ -25,21 +25,33 @@ table 99120 Sponsor
         {
             Caption = 'Join Date';
         }
-        field(60; "Sponsorship Level"; Enum 50100 "Sponsorship Level")
+        field(60; "Sponsorship Level"; Enum "Sponsorship Level")
         {
             Caption = 'Sponsorship Level';
         }
-        field(70; "Sponsor Team"; Text)
+        field(70; "Sponsor Team"; Text[100])
         {
             Caption = 'Sponsor Team';
         }
-        field(80; "Marital Status"; enum 50101 "Marital Status")
+        field(80; "Marital Status"; enum "Marital Status")
         {
             Caption = 'Marital Status';
         }
-        field(90; "Number of Children"; inte)
+        field(90; "Number of Children"; Integer)
         {
             Caption = 'Number of Children';
+        }
+        field(100; "Total Pledge Amount"; Decimal)
+        {
+            Caption = 'Total Pledge Amount';
+            FieldClass = FlowField;
+            CalcFormula = sum(Pledge."Pledge Amount" where("Sponsor No." = field("Sponsor Number")));
+        }
+        field(110; "Total Contribution Amount"; Decimal)
+        {
+            Caption = 'Total Contribution Amount';
+            FieldClass = FlowField;
+            CalcFormula = sum(Contribution."Contribution Amount" where("Sponsor No." = field("Sponsor Number")));
         }
     }
     keys
@@ -51,7 +63,7 @@ table 99120 Sponsor
     }
 }
 
-enum 50100 "Sponsorship Level"
+enum 99121 "Sponsorship Level"
 {
     Extensible = true;
     value(0; Rookie) { Caption = 'Rookie'; }
@@ -60,7 +72,7 @@ enum 50100 "Sponsorship Level"
     value(3; "Hall-of-Fame") { Caption = 'Hall-of-Fame'; }
 }
 
-enum 50101 "Marital Status"
+enum 99122 "Marital Status"
 {
     Extensible = true;
     value(0; Single) { Caption = 'Single'; }

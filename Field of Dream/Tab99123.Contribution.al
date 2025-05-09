@@ -2,18 +2,20 @@ table 99123 Contribution
 {
     Caption = 'Contribution';
     DataClassification = ToBeClassified;
-    
+
     fields
     {
-        field(10; "Line No."; Code[20])
+        field(10; "Line No."; Integer)
         {
             Caption = 'Line No.';
+            AutoIncrement = true;
         }
         field(20; "Sponsor No."; Code[20])
         {
             Caption = 'Sponsor No.';
+            TableRelation = Sponsor;
         }
-        field(30; Description; Text)
+        field(30; Description; Text[100])
         {
             Caption = 'Description';
         }
@@ -31,6 +33,9 @@ table 99123 Contribution
         key(PK; "Line No.")
         {
             Clustered = true;
+        }
+        key(SponsorNo; "Sponsor No.")
+        {
         }
     }
 }
